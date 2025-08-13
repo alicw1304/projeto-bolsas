@@ -18,34 +18,58 @@ body {
 }
 
 header {
-
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   height: 5.5rem;
   align-items: center;
   display: flex;
-
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    gap:1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
 
-   
-
-  }
-.verde{
+.verde {
   color: var(--corPrimaria);
 }
-.logo{
+
+.logo {
   height: 2.5rem;
 }
 
-.carrinho{
+.carrinho {
   height: 2.5rem;
 }
 
 
-a {
-  text-decoration: none;
+.centro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background: url("imagens/bolsa-wallpaper.jpg")no-repeat center / cover;
+  margin-top: 20px;
+
+  p {
+    margin-left: 150px;
+  }
+
+  h2 {
+    margin-left: 150px;
+font-size: 50px;
+  }
 }
+
+  .botao {
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(7, 171, 26);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 150px;
+
+    h4{
+      color: white;
+    }
+  }
