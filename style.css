@@ -73,3 +73,22 @@ font-size: 50px;
       color: white;
     }
   }
+
+  .bolsas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+    img {
+        margin-top: 10px;
+        margin-left: 20px;
+        height: 300px;
+        width: 300px;
+    }
+    h4{
+      margin-left: 115px;
+    }
+    p{
+      margin-left: 130px;
+    }
+  }
